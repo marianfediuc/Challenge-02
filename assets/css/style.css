@@ -1,0 +1,261 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: helvetica, sans-serif;
+    margin: 0;
+    background-color: #e2e9f1;
+  }
+
+
+  .headerM {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #13293d;    
+    width: 100%;
+    height: 14vh;
+    border-style: solid;
+    border-width: 2px;
+  }
+  header {
+    height: 12px;
+    font-style: helvetica;
+  }
+  
+  
+  .ownerName {
+    width: 40%;
+    flex: 1 0 90px;
+    padding: 10px;
+    width: 250px;
+    justify-content: space-between;
+    border-style: solid;
+    border-width: 1px;
+    background-color: rgb(187, 218, 228);;
+  }
+  
+ 
+  
+
+  
+  .ownerName2 {
+    padding-left: 0px;
+    width: 150px;
+    text-align: right;
+    flex: 1 0 200px;
+    background-color: #13293d;
+  }
+  
+
+  
+ 
+  section {
+    
+    
+    height: 70px;
+    width: 100%;
+    margin: 30px 0;
+    font-style: helvetica;
+    padding-right: 0;
+
+  }
+
+ 
+  nav ul {
+    text-align: right;
+    display: flex;
+  
+    width: 700px;
+    height: 30%, auto; 
+    background-color: #13293d;
+    padding-bottom: 1px;
+  }
+  
+/*
+  nav {
+    
+    text-align: right;
+    justify-content: space-between;
+    padding: 0;
+    background-color: #13293d;
+    color: #fff;
+    
+ 
+}*/
+
+.main001 {
+    display: flex;
+    max-width: 1200px;
+    margin: 2% 0;
+    font-style: helvetica;
+  }
+
+.main01 {
+    display: flex;
+    max-width: 1100px;
+    
+    font-style: helvetica;
+  }
+
+  .descriptionText {
+    
+
+    padding-top: 0px;
+    padding-bottom: 3px;
+  }
+   
+p {
+   display: flex;
+  font-style: helvetica;
+    padding-top: 29px;
+    padding-left: 20px;
+    font-size: 15px;
+    color: #2a3d50;
+    text-align: left;
+}
+
+h1 {
+    text-align: left;
+    height: 40px;
+    width: 110%;
+    font-family: helvetica;
+  }
+    
+
+  
+h2 {
+    margin: 10% 0;
+    font-size: 180%;
+    font-family: helvetica;
+    
+  }
+  
+ 
+h3 {
+    font-size: 180%;
+    margin: 10% 0;
+    font-family: helvetica;
+  }
+
+h4 {
+    margin: 0% 0;
+    font-size: 80%;
+    font-style: helvetica;
+    height: 2px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+  }
+ 
+h5 {
+    font-size: 120%;
+    margin: 3% 0;
+    font-family: helvetica;
+    
+  }
+
+  
+  footer {
+    padding: 10px;
+    text-align: right;
+    color: #fff;
+    display: flex;
+   
+    background-color: #13293d;
+    padding: 14px 20px;
+   
+  }
+  
+  nav {
+    display: flex;
+    background-color: #13293d;
+    color: rgb(187, 218, 228);
+    padding-bottom: 1px;
+    
+    text-align: right;
+  }
+  
+  nav a {
+    color: rgb(187, 218, 228);
+    padding: 14px 20px;
+    padding-top: 35px;
+    text-align: right;
+    
+  }
+    
+  .aside {
+    width: 198px;
+    height: 129px;       
+    font-style: helvetica;
+    background-color: e2e9f1;
+    padding-left: 29px;
+    padding-right: 5px;
+    padding-top: 0px;
+    padding-bottom: 3px;
+    text-align: right;
+    color: #2a3d50;
+    border-right: 3px solid #2a3d50; 
+    
+  }
+  .titleForWork {
+    width: 141px;   
+    height: 600px;    
+    font-style: helvetica;
+    background-color: e2e9f1;
+    padding-left: 44px;
+    padding-right: 5px;
+    text-align: right;
+    color: #2a3d50;
+    border-right: 3px solid #2a3d50; 
+   
+  }
+ 
+
+  .card1 {
+    
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    padding-left: 20px;
+    font-style: helvetica;
+    height: 35vh;
+    color: #2a3d50;
+  }
+  
+  
+  .card1 header {
+    padding: 20px;
+    font-style: helvetica;
+  }
+  
+ 
+  
+  .card1 img {
+    padding-top: 19px;
+    width: 90%;
+  
+  }
+
+  .card2 {
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    padding-left: 20px;
+    font-style: helvetica;
+    height: 4vh;
+  }
+
+  .card3 {
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    padding-left: 20px;
+    font-style: helvetica;
+    height: 4vh;
+}
+
+  .insertEmpty {
+
+    padding-left: 3px;
+  }
+  
